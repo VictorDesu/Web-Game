@@ -1,0 +1,26 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Chrome-chan vs Chad</title>
+        <script type="text/javascript" src="PPT.js"></script>
+        <link href="./PPT.css" rel="stylesheet">
+    </head>
+    <body id="body" onload="lore()">
+        <button id="start" onclick="start()">Jogar</button>
+        <p id="lore">Chrome-chan quer destruir toda a memória RAM do mundo, impeça ela ou será o fim dos PCs!</p>
+        <h2 id="pontosPlayer">Pontos: 0/10</h2>
+        <div id="player">
+            <button id="pedra" onclick="escolhaPedra()">Pedra</button>
+            <button id="papel" onclick="escolhaPapel()">Papel</button>
+            <button id="tesoura" onclick="escolhaTesoura()">Tesoura</button>
+        </div>
+        <h1 id="vs">VS</h1>
+        <h2 id="pontosPC">Pontos: 0/10</h2>
+        <div id="PC">
+            <button id="pedraPC">Pedra</button>
+            <button id="papelPC">Papel</button>
+            <button id="tesouraPC">Tesoura</button>
+        </div>
+        <button id="restart" onclick="restart()">Jogar denovo</button>
+    </body>
+</html>
